@@ -16,11 +16,10 @@ Build-Depends: debhelper (>= 9),
 
 Package: passbolt
 Architecture: any
-Depends: php,
-	php-cli,
+Depends: php-cli,
 	php-fpm,
 	php-mysql | php-mysqli,
-	${shlibs:Depends}, 
+	${shlibs:Depends},
 	${misc:Depends},
 	php-gd,
 	php-intl,
@@ -29,7 +28,7 @@ Depends: php,
 	php-mcrypt,
 	php-xml,
 	php-xsl,
-	nginx, 
+	nginx,
 	default-mysql-server
 Suggests: php-redis
 Description: Passbolt, open source password manager for teams
