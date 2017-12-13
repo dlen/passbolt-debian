@@ -1,0 +1,5 @@
+passbolt (2.0.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #PASSBOLT-2516)
+
+ -- Diego Lendoiro <diego@passbolt.com>  Tue, 12 Dec 2017 10:08:11 +0000

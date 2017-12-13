@@ -1,0 +1,14 @@
+#!/usr/bin/dh-exec
+
+src/* /var/www/passbolt/src/
+bin/* /var/www/passbolt/bin/
+config/* /var/www/passbolt/config/
+plugins/* /var/www/passbolt/plugins/
+tmp/* /var/www/passbolt/tmp/
+webroot/* /var/www/passbolt/webroot/
+vendor/* /var/www/passbolt/vendor/
+index.php /var/www/passbolt/index.php
+.htaccess /var/www/passbolt/.htaccess
+README.md /var/www/passbolt/README.md
+CONTRIBUTING.md /var/www/passbolt/CONTRIBUTING.md
+LICENSE.txt /var/www/passbolt/LICENSE.txt
